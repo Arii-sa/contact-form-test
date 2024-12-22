@@ -1,0 +1,100 @@
+.header {
+    border-bottom:1px solid #c4c0c0;
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+  }
+  
+  .header__logo {
+    color: #5c4444;
+    font-family: Serif , "游ゴシック", sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+  }
+  
+  .contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    color: #5c4444;
+  }
+  
+  .contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Serif , "游ゴシック", sans-serif;
+  }
+  
+  .form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .form__group-content{
+    text-align: left;
+  }
+  
+  .form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #d01a1a;
+  }
+  
+  .form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+  }
+  
+  .form__input--name{
+    padding: 10px;
+  }
+
+  
+  .form__input--text
+  .form__input--textarea textarea {
+    padding: 10px;
+    width: 1500px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  
+    appearance: none;
+  }
+  
+  .form__input--text input {
+    height: 40px;
+  }
+  
+  .form__input--textarea textarea {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .form__button {
+    margin-top: 30px;
+  }
+  
+  .form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #5c4444;
+    color: #fff;
+    cursor: pointer;
+  }
+  
